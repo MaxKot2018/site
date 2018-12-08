@@ -1,0 +1,133 @@
+.footer p {
+    text-align: center;
+  }
+    a {
+      color: black
+    }
+  
+    .container {
+      margin: 0 auto;
+      max-width: 1000px;
+      overflow: hidden;
+    }
+  
+    .fa-facebook:hover {
+      color: #3B5998
+    }
+  
+    .fa-vk:hover {
+     
+      color: #4c75a3
+    }
+  
+    .fa-instagram:hover {
+      color: #ffc0cb
+    }
+  
+    .fa-youtube-play:hover {
+      color: #ff0000
+    }
+  
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    
+  
+    .social-block,
+    .links-block {
+      display: inline-block;
+    }
+  
+    .social-block>ul>li {
+      display: inline-block;
+      margin-right: 15px;
+    }
+  
+    .links-block>ul>li {
+      display: inline-block;
+      margin-left: 10px
+    }
+  
+    .links-block>ul>li a {
+      text-decoration: none;
+      text-transform: uppercase
+    }
+  
+    .nuxt-link-exact-active {
+      color: #27D3B4
+    }
+  
+    @media only screen and (max-width: 480px) {
+      .social-block{
+        width:100%;
+      }
+      .links-block {
+        width:0;
+        visibility: hidden;
+      }
+    }
+  
+  .text-wrap{
+    width:0%;
+  }
+  
+  body{
+    overflow-x:hidden;
+  }
+    .links-block {
+      padding-right: 50px;
+    }
+    
+    .active {
+        color:#3B5998;
+    }
+      .main-img {
+          margin-top:20px;
+        width: 80%;
+          background: url("https://pp.userapi.com/c830609/v830609291/ff940/VEciiiNtJaE.jpg") fixed center center no-repeat;
+        
+          min-height: 700px;
+          min-width: 900px;
+
+
+      }
+  
+    
+      .text-wrap {
+        width: 20%;
+        position: relative;
+      }
+    
+      .text-wrap .text-item {
+        position: absolute;
+        left: 90px;
+      }
+    
+      .text-wrap h1 {
+        font-size: 30px;
+        background: #ffffff;
+        display: inline;
+      }
+    
+      .text-wrap h2 {
+        position: absolute;
+        background: #ffffff
+      }
+    
+      .text-wrap .text-item:nth-child(1) {
+        top: 200px;
+      }
+    
+      .text-wrap .text-item:nth-child(2) {
+        top: 300px;
+      }
+    
+      .text-wrap .text-item h1 {
+        background: #ffffff;
+        padding: 3px;
+        letter-spacing: 7px;
+        text-transform: uppercase;
+      }
+    
